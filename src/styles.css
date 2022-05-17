@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg, lightblue, blue);
+  width: 80%;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  align-items: left;
+  gap: 1rem;
+}
+
+.card h2 {
+  text-align: left;
+  color: white;
+}
+
+.correct-ans {
+  font-size: 1.3rem;
+  color: white;
+}
+
+button {
+  width: 15rem;
+  border: 2px solid grey;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.next {
+  width: 100%;
+  margin-top: 1rem;
+  background: linear-gradient(yellow, yellow 20%);
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.get-ans {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.disable {
+  pointer-events: none;
+}
