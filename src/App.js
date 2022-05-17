@@ -23,7 +23,7 @@ export default function App() {
       alert("Correct Answer");
       setGetAns(getAns + 1);
     } else {
-      alert("Answer Is not Correct");
+      alert("Answer Is not Correct! Please Try Again");
       setWrong(wrong + 1);
     }
   }
